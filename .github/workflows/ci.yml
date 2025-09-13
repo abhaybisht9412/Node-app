@@ -15,7 +15,5 @@ jobs:
         with:
           node-version: 18
 
-          - run: npm install
-          - run: chmod +x ./node_modules/.bin/jest
-          - run: npm test
-          
+      - run: npm install
+      - run: npm test
